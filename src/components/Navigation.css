@@ -1,0 +1,43 @@
+.sidenav {
+    height: 100%;
+    width: 24%;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    background-color: #FAB9AE;
+    overflow-x: hidden;
+    padding-top: 9%;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    color: #43290F;
+    display: block;
+    margin-top: 8px;
+}
+
+.wrapper img {
+    max-width: 44%;
+    height: auto;
+    position: relative;
+    border: 8px solid rgba(240, 248, 255, 0.5);
+    border-radius: 50%;
+    display: block;
+    margin-bottom: 12px;
+}
+
+.wrapper a:hover{
+    color: aliceblue;
+    text-shadow: 2px 2px 8px rgb(240, 248, 255);
+    cursor: pointer;
+}
