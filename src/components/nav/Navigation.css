@@ -5,6 +5,7 @@
     background-color: #FAB9AE;
     overflow-x: hidden;
     padding-top: 9%;
+    position: sticky;
 }
 
 .wrapper {

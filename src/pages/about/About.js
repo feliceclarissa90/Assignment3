@@ -16,10 +16,10 @@ const About = () => {
 
             <div>
                 <div className="icon">
-                    <FontAwesomeIcon icon={faLinkedin} />
+                    <a href="https://www.linkedin.com/in/felice-clarissa-1b6012206/"><FontAwesomeIcon icon={faLinkedin} /></a>
                 </div>
                 <div className="icon">
-                    <FontAwesomeIcon icon={faGithub} />
+                    <a href="https://github.com/feliceclarissa90/Assignment3"><FontAwesomeIcon icon={faGithub} /></a>
                 </div>
             </div>
         </div>

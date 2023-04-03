@@ -16,7 +16,7 @@
 .icon{
     display: flex;
     float: left;
-    background-color: aliceblue;
+    background-color: #FCD5CF;
     border-radius: 50%;
     width: 32px;
     height: 32px;
@@ -24,4 +24,8 @@
     align-items: center;
     margin-right: 1%;
     margin-top: 0;
+}
+
+.icon a{
+    color: #43290F;
 }

@@ -6,6 +6,8 @@ import Education from './pages/education/Education';
 import Skills from './pages/skills/Skills';
 import Interests from './pages/interests/Interests';
 import Awards from './pages/awards/Awards';
+import "./App.css";
+
 
 function App() {
   return (
@@ -13,7 +15,7 @@ function App() {
       display: "flex",
       minHeight: "100vh",
       height: 0,
-      
+
     }}>
 
       <Navigation />
