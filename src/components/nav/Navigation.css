@@ -1,10 +1,7 @@
 .sidenav {
     height: 100%;
     width: 24%;
-    position: fixed;
-    z-index: -1;
-    top: 0;
-    left: 0;
+    box-sizing: border-box;
     background-color: #FAB9AE;
     overflow-x: hidden;
     padding-top: 9%;
@@ -40,4 +37,9 @@
     color: aliceblue;
     text-shadow: 2px 2px 8px rgb(240, 248, 255);
     cursor: pointer;
+}
+
+.wrapper a:active {
+    color: aliceblue;
+    text-shadow: 2px 2px 8px rgb(240, 248, 255);
 }

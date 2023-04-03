@@ -1,5 +1,5 @@
 import './Navigation.css'
-import profile from "./../assets/profile.jpeg"
+import profile from "./../../assets/profile.jpeg"
 import { Link } from "react-router-dom";
 
 const Navigation = () => {

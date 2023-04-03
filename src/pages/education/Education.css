@@ -1,0 +1,9 @@
+.education {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 4%;
+    padding-right: 6%;
+    text-align: justify;
+}
