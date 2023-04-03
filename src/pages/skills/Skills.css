@@ -10,10 +10,13 @@
 
 .skills ul {
     width: 40%;
+    margin-left: 0;
+    padding-left: 0;
 }
 
 .skills ul li {
     margin-top: 3%;
+    list-style-type: none;
 }
 
 .container {

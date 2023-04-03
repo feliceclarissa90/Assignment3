@@ -13,11 +13,15 @@ const Education = () => {
                 deskripsi = "Bachelor's degree, Information System."
             />
 
+            <br></br>
+
             <EducationCard
                 judul = "Hacktiv8 Indonesia"
                 durasi = "February 2023 - June 2023"
                 deskripsi = "React and React Native for Front End Developer."
             />
+
+            <br></br>
 
             <EducationCard
                 judul = "SMA Sutomo 1"
@@ -25,7 +29,7 @@ const Education = () => {
                 deskripsi = "Jurusan IPA."
             />
             
-
+            <br></br>
         </div>
     )
 }
