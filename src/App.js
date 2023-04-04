@@ -13,14 +13,16 @@ function App() {
   return (
     <div style={{
       display: "flex",
-      minHeight: "100vh",
-      height: 0,
-
+      height: "100vh",
     }}>
 
       <Navigation />
 
-      <div style={{ flex: 1}}>
+      <div style={{
+        flex: 1,
+        overflowY: "scroll",
+        scrollBehavior: "smooth",
+      }}>
         <Routes>
           <Route path="/" element={<About />} />
           <Route path="/experience" element={<Experience />} />
