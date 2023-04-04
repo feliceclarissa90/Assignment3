@@ -1,6 +1,6 @@
 import './Navigation.css'
 import profile from "./../../assets/profile.jpeg"
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Navigation = () => {
 
@@ -9,12 +9,12 @@ const Navigation = () => {
         <div className="sidenav">
             <div className="wrapper">
                 <img src={profile} alt="profile"/>
-                <Link to="/">About</Link>
-                <Link to="/experience">Experience</Link>
-                <Link to="/education">Education</Link>
-                <Link to="/skills">Skills</Link>
-                <Link to="/interests">Interests</Link>
-                <Link to="/awards">Awards</Link>
+                <NavLink to="/">About</NavLink>
+                <NavLink to="/experience">Experience</NavLink>
+                <NavLink to="/education">Education</NavLink>
+                <NavLink to="/skills">Skills</NavLink>
+                <NavLink to="/interests">Interests</NavLink>
+                <NavLink to="/awards">Awards</NavLink>
             </div>
         </div>
     )

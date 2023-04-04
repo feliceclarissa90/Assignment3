@@ -8,6 +8,11 @@
     position: sticky;
 }
 
+.wrapper a.active {
+    color: aliceblue;
+    /* text-shadow: 2px 2px 8px rgb(240, 248, 255); */
+}
+
 .wrapper {
     display: flex;
     flex-direction: column;
@@ -38,9 +43,4 @@
     color: aliceblue;
     text-shadow: 2px 2px 8px rgb(240, 248, 255);
     cursor: pointer;
-}
-
-.wrapper a:active {
-    color: aliceblue;
-    text-shadow: 2px 2px 8px rgb(240, 248, 255);
 }
